@@ -3,10 +3,10 @@
 } */
 
 body {
-    font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
     margin: 0;
-    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
 }
 
 ul {
@@ -39,9 +39,10 @@ a {
 }
 
 .logo-img {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin-right: 10px;
+    margin-left: 10px;
 }
 
 .logo a,
@@ -64,10 +65,13 @@ a {
 
 
 .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
     padding-top: .5em;
     padding-bottom: .5em;
     border: 1px solid #a2a2a2;
-    background-color: #8175ff62;
+    background-color: #00913c;
     -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
@@ -76,12 +80,70 @@ a {
     border-radius: 5px;
 }
 
-.login {
-    margin-bottom: 5px;
-}
 
 .signup {
-    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+#banner {
+    background-image: url("assets/main/banner.jpg");
+    background-size: cover;
+    margin-top: 100px;
+    width: 100%;
+    height: 600px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#banner h1,
+#banner h4 {
+    font-weight: 800;
+}
+
+.login-banner {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.head_para {
+    margin-top: 20px;
+}
+
+.fa-solid {
+    margin-top: 30px;
+    color: green;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+#developers {
+    margin-top: 50px;
+    background-image: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.testimonial-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.news-image {
+    width: 270px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.news-heading {
+    margin-top: 20px;
+}
+
+#footer {
+    margin-top: 50px;
+    color: #f7f7f7;
+    padding: 50px;
+    background-color: #000000;
 }
 
 /* ================================= 
