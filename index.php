@@ -226,7 +226,7 @@
                 </div>
                 <div class="col-6" style="text-align: right;">
                     <h4 class="section-head-footer">Company Address</h4>
-                    <h6 style="margin-top: 20px;">Maurya Proejcts ltd.</h6>
+                    <h6 style="margin-top: 20px;">Maurya Projects ltd.</h6>
                     <h6>Shivdaspur, Manduadih</h6>
                     <h6>Varanasi, India,221103</h6>
                     <h6>P: +91 9140951010</h6>
@@ -234,7 +234,7 @@
             </div>
             <div class="row" style="text-align: center; margin-top:40px">
                 <div class="col-12">
-                    <h6 style="color:#f2f2f2"> Copyright 2023 @ Company Name</h6>
+                    <h6 style="color:#f2f2f2"> Copyright 2024 @ Maurya Projects</h6>
                 </div>
             </div>
         </div>
