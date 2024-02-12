@@ -62,7 +62,7 @@ if (!isset($_SESSION["user"])) {
                     array_push($errors, "Enter valid postal code");
                 }
                 if (strtolower($pid) != strtolower($email)) {
-                    array_push($errors, "Enter your email same as email logged In   ");
+                    array_push($errors, "Enter your email same as email logged In");
                 }
                 require_once 'config.php';
                 // $sql = "SELECT * FROM users WHERE email = '$email'";

@@ -150,7 +150,7 @@
                     <h6 style="font-weight: 800;">Database Manager</h6>
                 </div>
                 <div class="col-md-2">
-                    <img src="assets/developers/aakash.png" class="testimonial-image">
+                    <img src="assets/developers/kushwaha.jpg" class="testimonial-image">
                 </div>
             </div>
         </div>
