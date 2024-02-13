@@ -1,4 +1,8 @@
 <?php
+session_start();
+if (!isset($_SESSION["user"])) {
+    header("Location: login.php");
+}
 require_once("config.php");
 $query = "select case_id,court_type,case_type,case_description,created_at from cases";
 $result = mysqli_query($link, $query);
@@ -11,10 +15,11 @@ $result = mysqli_query($link, $query);
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <script type="text/javascript">
-        function myFunc(id) {
-            alert(id);
+    <script>
+        if (window == window.top) {
+            window.location.replace("dashboard.php");
         }
+    </script>
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

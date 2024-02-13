@@ -2,23 +2,20 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
-
+<?php
+session_start();
+if (!isset($_SESSION["user"])) {
+    header("Location: login.php");
+}
+?>
 <!DOCTYPE html>
 <html>
 
 <head>
     <script>
-        /*!
-         * FullCalendar v1.6.4
-         * Docs & License: http://arshaw.com/fullcalendar/
-         * (c) 2013 Adam Shaw
-         */
-
-        /*
-         * Use fullcalendar.css for basic styling.
-         * For event drag & drop, requires jQuery UI draggable.
-         * For event resizing, requires jQuery UI resizable.
-         */
+        if (window == window.top) {
+            window.location.replace("dashboard.php");
+        }
 
         (function($, undefined) {
 
