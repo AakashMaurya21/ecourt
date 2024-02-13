@@ -40,9 +40,9 @@ $result = mysqli_query($link, $query);
                 <div class="card mt-5">
                     <table class="table table-bordered" style="text-align: center;">
                         <tr class="bg-dark text-white" style="text-align: center;">
-                            <td> Court Type </td>
-                            <td> Case Type</td>
-                            <td> Case Description </td>
+                            <td> Email </td>
+                            <td>Name</td>
+                            <td> User Type </td>
                             <td> Created at </td>
                         </tr>
                         <tr>

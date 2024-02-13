@@ -50,10 +50,8 @@ if (!isset($_SESSION["user"])) {
                         <i class="fas fa-chart-area fa-fw me-3"></i><span>Register Case</span>
                     </a>
                     <a href="password.php" target="iframe" class="list-group-item list-group-item-action py-2 ripple"><i class="fas fa-lock fa-fw me-3"></i><span>Password</span></a>
-                    <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i class="fas fa-chart-line fa-fw me-3"></i><span>Analytics</span></a>
                     <a href="calendar.php" target="iframe" class="list-group-item list-group-item-action py-2 ripple"><i class="fas fa-calendar fa-fw me-3"></i><span>Calendar</span></a>
                     <a href="user_info.php" target="iframe" class="list-group-item list-group-item-action py-2 ripple"><i class="fas fa-users fa-fw me-3"></i><span>User Info</span></a>
-                    <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i class="fas fa-money-bill fa-fw me-3"></i><span>Pay</span></a>
                 </div>
             </div>
         </nav>

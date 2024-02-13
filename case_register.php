@@ -111,6 +111,7 @@ if (!isset($_SESSION["user"])) {
                         <option value="Land">Land</option>
                         <option value="Charity Trust">Charity Trust</option>
                         <option value="SEBI">SEBI</option>
+                        <option value="Other">Other</option>
                     </select>
                     <input type="text" name="name" style="width: 95%;" placeholder="Name of applicant" />
                     <input type="text" name="email" style="width: 95%;" placeholder="Email" />
