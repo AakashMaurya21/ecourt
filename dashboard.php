@@ -52,7 +52,7 @@ if (!isset($_SESSION["user"])) {
                     <a href="password.php" target="iframe" class="list-group-item list-group-item-action py-2 ripple"><i class="fas fa-lock fa-fw me-3"></i><span>Password</span></a>
                     <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i class="fas fa-chart-line fa-fw me-3"></i><span>Analytics</span></a>
                     <a href="calendar.php" target="iframe" class="list-group-item list-group-item-action py-2 ripple"><i class="fas fa-calendar fa-fw me-3"></i><span>Calendar</span></a>
-                    <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i class="fas fa-users fa-fw me-3"></i><span>User Info</span></a>
+                    <a href="user_info.php" target="iframe" class="list-group-item list-group-item-action py-2 ripple"><i class="fas fa-users fa-fw me-3"></i><span>User Info</span></a>
                     <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i class="fas fa-money-bill fa-fw me-3"></i><span>Pay</span></a>
                 </div>
             </div>
@@ -71,7 +71,7 @@ if (!isset($_SESSION["user"])) {
                             <h1 style="color: blue; font-weight:700">Adaalat</h1>
                         </div>
                         <div class="col-2">
-                            <img src="assets/logo/logo.png" width="50" height="50">
+                            <img src="assets/logo/logo.png" width="50" height="50" style="margin-left: 20px;">
                         </div>
                     </div>
                 </div>

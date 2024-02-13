@@ -5,7 +5,7 @@ if (!isset($_SESSION["user"])) {
     header("Location: login.php");
 }
 require_once("config.php");
-$query = "select case_id,court_type,case_type,case_description,created_at from cases where email='$pid'";
+$query = "select email,name,user,created_at from users where email='$pid'";
 $result = mysqli_query($link, $query);
 ?>
 
@@ -44,19 +44,15 @@ $result = mysqli_query($link, $query);
                             <td> Case Type</td>
                             <td> Case Description </td>
                             <td> Created at </td>
-                            <td>Edit</td>
                         </tr>
                         <tr>
                             <?php
                             while ($row = mysqli_fetch_assoc($result)) {
                             ?>
-                                <td><?php echo $row["court_type"] ?></td>
-                                <td><?php echo $row["case_type"] ?></td>
-                                <td><?php echo $row["case_description"] ?></td>
+                                <td><?php echo $row["email"] ?></td>
+                                <td><?php echo $row["name"] ?></td>
+                                <td><?php echo $row["user"] ?></td>
                                 <td><?php echo $row["created_at"] ?></td>
-                                <td>
-                                    <a href="delete.php/*?id=<?php echo $row["case_id"] ?>" class="btn btn-danger">Delete</a>
-                                </td>
                         </tr>
                     <?php
                             }
